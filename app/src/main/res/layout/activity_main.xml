@@ -27,10 +27,35 @@
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:lineSpacingExtra="10dp"
+            android:text="方法一：正则匹配 + ClickableSpan"
+            android:textStyle="bold" />
+
+        <TextView
             android:id="@+id/tv_content"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="30dp"
+            android:layout_marginHorizontal="30dp"
+            android:lineSpacingExtra="10dp"
+            android:text="111"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:lineSpacingExtra="10dp"
+            android:text="方法二：Html + ClickableSpan"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_content2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
             android:lineSpacingExtra="10dp"
             android:text="111"
             android:textSize="16sp" />
